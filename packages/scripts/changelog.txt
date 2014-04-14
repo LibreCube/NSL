@@ -1,4 +1,4 @@
-Changelog:
+CHANGELOG:
 
 Todo:
 	- nooblib:
@@ -11,6 +11,10 @@ Todo:
 	-outlaw:
 		- add possibility to disable outlaw scripts without mod the original script files
 		
+	
+v0.9 (Alpha as of now):
+	nooblib:
+		- improved: make use of local variables (14.04.2014)
 		
 v0.8 (Private Release 14.04.2014):
 	nooblib:
