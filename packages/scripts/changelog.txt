@@ -16,6 +16,10 @@ v0.9 (Alpha as of now):
 	nooblib:
 		- improved: make use of local variables (14.04.2014)
 		
+	noobpro:
+		- improved: make the graphic settings configurable (14.04.2014)
+		- improved: backup the user settings before apply + restore their setting at reset (14.04.2014)
+		
 v0.8 (Private Release 14.04.2014):
 	nooblib:
 		- improved: updated license to CC-BY-SA 4.0 (prior CC-BY-SA 3.0) (14.04.2014)
@@ -43,6 +47,9 @@ v0.8 (Private Release 14.04.2014):
 		
 	introduce znoobysccpack (23.02.2014):
 		- znoobysccpack is an example addon for the zombie menu; it's adding CC-BY and CC-BY-SA to the licenses
+		
+	introduce noobpro (24.09.2013)
+		- noobpro is a small function to easily change the graphic settings from pretty to high performance and texreduce, which helps to play better
 	
 v0.7 (Private Release 15.08.2013):
 	nooblib:	
