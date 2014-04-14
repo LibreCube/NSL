@@ -8,10 +8,6 @@ Todo:
 	- noobafk:
 		- only if connected to server should be autoafk running
 		
-	-outlaw:
-		- add possibility to disable outlaw scripts without mod the original script files
-		
-	
 v0.9 (Alpha as of now):
 	nooblib:
 		- added: make it possible to disable outlaw scripts (15.04.2014)
@@ -24,6 +20,9 @@ v0.9 (Alpha as of now):
 		
 	statsprinter:
 		- improved: cleaned up code; make use of local (15.04.2014)
+	
+	outlaw:
+		- added: texmenu from "SomeDude" (15.04.2014)
 		
 
 v0.8 (Private Release 14.04.2014):
