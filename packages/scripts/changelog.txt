@@ -14,12 +14,18 @@ Todo:
 	
 v0.9 (Alpha as of now):
 	nooblib:
+		- added: make it possible to disable outlaw scripts (15.04.2014)
 		- improved: make use of local variables (14.04.2014)
+		- fixed: getRunScriptSetting results now always true if there isn't a setting existing (15.04.2014)
 		
 	noobpro:
 		- improved: make the graphic settings configurable (14.04.2014)
 		- improved: backup the user settings before apply + restore their setting at reset (14.04.2014)
 		
+	statsprinter:
+		- improved: cleaned up code; make use of local (15.04.2014)
+		
+
 v0.8 (Private Release 14.04.2014):
 	nooblib:
 		- improved: updated license to CC-BY-SA 4.0 (prior CC-BY-SA 3.0) (14.04.2014)
