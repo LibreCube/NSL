@@ -1,0 +1,55 @@
+Changelog:
+
+Todo:
+	- nooblib:
+		- rename "runScript"
+		- gui for settings
+		
+	- noobafk:
+		- only if connected to server should be autoafk running
+		
+	-outlaw:
+		- add possibility to disable outlaw scripts without mod the original script files
+		
+		
+v0.8 (Private Release 14.04.2014):
+	nooblib:
+		- improved: updated license to CC-BY-SA 4.0 (prior CC-BY-SA 3.0) (14.04.2014)
+		- added: nIsDef and nInit (12.04.2014)
+		
+	noobafk:
+		- improved: it's not any longer needed to disable the script before you change your key binds, however you still need to restart sauer (14.04.2014)
+		- fixed: multiple renames (add the afk tag as pre- or suffix) after reload the script (12.04.2014)
+		- fixed: init error if you reset your game config (12.04.2014)
+		- fixed: you get "auto-afk" even if you did this manually before (double rename) (17.08.2013)
+		
+	noobservers:
+		- added: add the ability the active the server browser from crapmod (03.11.2013)
+		- added: connect to Protest8 (05.09.2013)
+		- fixed: removed the 64b.org connections, the servers are gone (03.11.2013)
+		- fixed: update the connections to the servers (19.08.2013)
+		
+	noobysrules (prior named noobrules):
+		- improved: the rules have now a new style (05.09.2013)
+		
+	noobraceroptions renamed to noobysraceroptions (14.04.201)
+	
+	noobauth (prior named noobysauth):
+		- added: now its possible to auth on every server with the bind, providing that you have added the auth key in your authkeys.cfg (09.09.2013)
+		
+	introduce znoobysccpack (23.02.2014):
+		- znoobysccpack is an example addon for the zombie menu; it's adding CC-BY and CC-BY-SA to the licenses
+	
+v0.7 (Private Release 15.08.2013):
+	nooblib:	
+		- added: Show a welcome message after install or update the NSL
+		- fixed: a bug in "createBindIf"; the if returned everytime true
+	noobysauth: 
+		- added: press the key again to give up your master status
+	noobautosorry: 
+		- fixed: false-positive teamkills should not happen anymore
+	noobafk: 
+		- added: don't spec in coop-mode, just rename
+		- added: no need to define the keys in the autoexec.cfg anymore
+	noobservers:
+		- fixed: update the outlawzone connect
