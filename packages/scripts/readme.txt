@@ -15,7 +15,7 @@ How can I install and use this script library?
 	personal stuff again and again into the autoexec.cfg.
 	
 How can I update the NSL?
-	First make sure you have your personal stuff secure, then delete the old packages/scripts directory and then copy the new files into your sauerbraten dir.
+	First make sure you have a backup your personal stuff, then delete the old packages/scripts directory and then copy the new files into your sauerbraten dir.
 	
 How can I report bugs or make suggestions?
 	If you see this noob called "Nooby" in game just talk to him. He won't blame you. Really.
