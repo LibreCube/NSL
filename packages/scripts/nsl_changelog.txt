@@ -12,6 +12,8 @@ v0.9 (Alpha as of now):
 	nooblib:
 		- added: make it possible to disable outlaw scripts (15.04.2014)
 		- improved: added exec_nsl function to set the settings for the scripts (15.04.2014)
+		- improved: change directory tree; added nsl dir for scripts which are made to run with the nooblib (15.04.2014)
+		- improved: add "nsl_" as a prefix in the filenames for the readme.txt and the changelog.txt; prevents overwritings (15.04.2014)
 		- improved: make use of local variables (14.04.2014)
 		- fixed: getRunScriptSetting results now always true if there isn't a setting existing (15.04.2014)
 		
