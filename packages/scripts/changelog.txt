@@ -11,6 +11,7 @@ Todo:
 v0.9 (Alpha as of now):
 	nooblib:
 		- added: make it possible to disable outlaw scripts (15.04.2014)
+		- improved: added exec_nsl function to set the settings for the scripts (15.04.2014)
 		- improved: make use of local variables (14.04.2014)
 		- fixed: getRunScriptSetting results now always true if there isn't a setting existing (15.04.2014)
 		
@@ -37,7 +38,7 @@ v0.8 (Private Release 14.04.2014):
 		- fixed: you get "auto-afk" even if you did this manually before (double rename) (17.08.2013)
 		
 	noobservers:
-		- added: add the ability the active the server browser from crapmod (03.11.2013)
+		- added: add the ability to active the server browser of crapmod (03.11.2013)
 		- added: connect to Protest8 (05.09.2013)
 		- fixed: removed the 64b.org connections, the servers are gone (03.11.2013)
 		- fixed: update the connections to the servers (19.08.2013)
@@ -51,10 +52,10 @@ v0.8 (Private Release 14.04.2014):
 		- added: now its possible to auth on every server with the bind, providing that you have added the auth key in your authkeys.cfg (09.09.2013)
 		
 	introduce znoobysccpack (23.02.2014):
-		- znoobysccpack is an example addon for the zombie menu; it's adding CC-BY and CC-BY-SA to the licenses
+		- znoobysccpack is an example addon for the zombie menu; it's adding CC-BY 4.0 and CC-BY-SA 4.0 to the licenses
 		
 	introduce noobpro (24.09.2013)
-		- noobpro is a small function to easily change the graphic settings from pretty to high performance and texreduce, which helps to play better
+		- noobpro is a small function to easily change the graphic settings from nice-looking to high performance and better-playing
 	
 v0.7 (Private Release 15.08.2013):
 	nooblib:	
