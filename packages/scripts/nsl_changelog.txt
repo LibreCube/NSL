@@ -12,6 +12,7 @@ v0.9 (Alpha as of now):
 	nooblib:
 		- added: make it possible to disable outlaw scripts (15.04.2014)
 		- added: maths functions: ++ and -- ; they are sum or subtract 1 to a var; example: ++ i (18.04.2014)
+		- improved:	remove redundant code from the bind functions (19.04.2014)
 		- improved: don't overwrite the main menu just for showing the welcome gui (19.04.2014)
 		- improved: added exec_nsl function to set the settings for the scripts (15.04.2014)
 		- improved: change directory tree; added nsl dir for scripts which are made to run with the nooblib (15.04.2014)
@@ -35,8 +36,8 @@ v0.9 (Alpha as of now):
 
 v0.8 (Private Release 14.04.2014):
 	nooblib:
-		- improved: updated license to CC-BY-SA 4.0 (prior CC-BY-SA 3.0) (14.04.2014)
 		- added: nIsDef and nInit (12.04.2014)
+		- improved: updated license to CC-BY-SA 4.0 (prior CC-BY-SA 3.0) (14.04.2014)
 		
 	noobafk:
 		- improved: it's not any longer needed to disable the script before you change your key binds, however you still need to restart sauer (14.04.2014)
