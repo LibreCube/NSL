@@ -21,6 +21,7 @@ v0.9 (Alpha as of now):
 		- fixed: getRunScriptSetting results now always true if there isn't a setting existing (15.04.2014)
 		
 	noobpro:
+		- added: enable hidedead (23.04.2014)
 		- improved: make the graphic settings configurable (14.04.2014)
 		- improved: backup the user settings before apply + restore their setting at reset (14.04.2014)
 		
