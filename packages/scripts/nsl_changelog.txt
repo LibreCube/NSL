@@ -2,12 +2,10 @@ CHANGELOG:
 
 Todo:
 	- nooblib:
-		- rename "runScript"
+		- rename "runScript"; add "nsl_" prefix for nsl functions
 		- gui for settings
-		
-	- noobafk:
-		- only if connected to server should be autoafk running
-		
+		- create nsl function who results the path to the dir in with the script, who call the function, is saved
+
 v0.9 (Alpha as of now):
 	nooblib:
 		- added: make it possible to disable outlaw scripts (15.04.2014)
