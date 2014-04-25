@@ -5,6 +5,16 @@ Todo:
 		- rename "runScript"; add "nsl_" prefix for nsl functions
 		- gui for settings
 		- create nsl function who results the path to the dir in with the script, who call the function, is saved
+		- creating solution that the script itself don't need to know his name, maybe scripts need to have a init function, which gets called one time after execute by the nooblib, and the nooblib give the script via this function his name
+		- use =s and !=s instead of strcmp
+		- add list function
+		
+	- noobauth:
+		- find solution how to check if /setmaster 1 is possible
+		
+Todo after 1.0:
+	- nooblib:
+		- "garbage collector": remove setting from files which don't exist anymore
 
 v0.9 (Alpha as of now):
 	nooblib:
