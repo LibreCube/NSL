@@ -7,15 +7,15 @@ How can I install and use this script library?
 	The only file which will get overwritten is your autoexec.cfg.
 	So if you have never change something in your autoexec.cfg file everything is fine and you can just overwrite it.
 	
-	If you have authkeys for server to claim master/admin you can create a authkeys.cfg and put them all in.
-	The authkeys.cfg file will get execute from the script library.
-	
-	If you have other stuff in your autoexec.cfg which you want to use in the future, you have to copy this stuff in the new autoexec.cfg
-	or you copy it into your authkeys.cfg too. The last possibility makes it easier to update the NSL, because you don't have to copy your
-	personal stuff again and again into the autoexec.cfg.
+	If you have authkeys for server to claim master/admin into your autoexec.cfg you can do the simple following thing:
+	Before you overwrite the files execute the following command in-game by typing it in the chat:
+		/saveauthkeys
+	The command will generate an auth.cfg file with all your authkeys. This means you don't need to save your authkeys anymore in the autoexec.cfg and you can just overwrite it.
+		
+	If you have already other scripts you should move them to the new directory packages/scripts/outlaw/. All scripts inside this dir will get executed automatically by the NSL. It's even possible to disable this scripts via the settings in-game.
 	
 How can I update the NSL?
-	First make sure you have a backup your personal stuff, then delete the old packages/scripts directory and then copy the new files into your sauerbraten dir.
+	First make sure you have a backup of your personal stuff, then delete the old packages/scripts directory and then copy the new files into your sauerbraten dir.
 	
 How can I report bugs or make suggestions?
 	If you see this noob called "Nooby" in game just talk to him. He won't blame you. Really.
