@@ -9,6 +9,8 @@ Todo:
 		- use =s and !=s instead of strcmp
 		- add list function
 		
+		- maybe find a solution how to only loop over directories?
+		
 	- noobauth:
 		- find solution how to check if /setmaster 1 is possible
 		
@@ -18,6 +20,7 @@ Todo after 1.0:
 		
 v1.0 (Alpha as of now):
 	- nooblib:
+		- improved: no need anymore to declare the nsl directories in the autoexec.cfg (26.04.2014)
 		- improved: add optional parameter to nsl_bind_key_if_script_enabled; should the key gets the bind even there isn't a setting if the script gets executed or not? (26.04.2014)
 		- improved: rename ifActiveBindKey to nsl_bind_key_if_script_enabled (26.04.2014)
 		- improved: only execute outlaw scripts if they are explicit enabled (26.04.2014)
