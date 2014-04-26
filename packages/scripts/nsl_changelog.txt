@@ -18,7 +18,9 @@ Todo after 1.0:
 		
 v1.0 (Alpha as of now):
 	- nooblib:
-		- improved: getRunScriptSpecificOptions have a third optional parameter which you can use to set default settings; the function results the default if there isn't a setting saved (26.04.2014)
+		- improved: add optional parameter to nsl_is_script_enabled which sets the default value, is getting used if there isn't a setting saved (26.04.2014)
+		- improved: rename getRunScriptSetting to nsl_is_script_enabled (26.04.2014)
+		- improved: add optional paramter to getRunScriptSpecificOptions which sets the default value, is getting used if there isn't a setting saved (26.04.2014)
 		- fixed: getRunScriptSpecificOptions results now -1 if there isn't any setting saved (26.04.2014)
 		
 	- noobafk:
