@@ -9,7 +9,7 @@ Todo:
 		- use =s and !=s instead of strcmp
 		- add list function
 		
-		- maybe find a solution how to only loop over directories?
+		- maybe find a solution how to loop only over directories?
 		
 	- noobauth:
 		- find solution how to check if /setmaster 1 is possible
