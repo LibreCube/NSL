@@ -27,6 +27,7 @@ v1.0 (Alpha as of now):
 		- fixed: getRunScriptSpecificOptions results now -1 if there isn't any setting saved (26.04.2014)
 		
 	- noobafk:
+		- improved: change default time til you are count as afk from 80 seconds to 300 (26.04.2014)
 		- improved: make use of the default value parameter of getRunScriptSpecificOptions (26.04.2014)
 		
 	- noobauth:
