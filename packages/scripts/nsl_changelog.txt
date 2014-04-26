@@ -29,8 +29,17 @@ v1.0 (Alpha as of now):
 	- noobafk:
 		- improved: make use of the default value parameter of getRunScriptSpecificOptions (26.04.2014)
 		
+	- noobauth:
+		- improved: only gets executed if explicit enabled (26.04.2014)
+		
 	- noobautosorry:
 		- improved: make use of the default value parameter of getRunScriptSpecificOptions (26.04.2014)
+		
+	- noobysraceroptions:
+		- improved: only gets executed if explicit enabled (26.04.2014)
+		
+	- noobysrules:
+		- improved: only gets executed if explicit enabled (26.04.2014)
 
 v0.9 (26.04.2014):
 	nooblib:
