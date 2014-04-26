@@ -1,12 +1,33 @@
 CHANGELOG:
 
+Todo:
+	- nooblib:
+		- rename "runScript"; add "nsl_" prefix for nsl functions
+		- gui for settings
+		- create nsl function who results the path to the dir in with the script, who call the function, is saved
+		- creating solution that the script itself don't need to know his name, maybe scripts need to have a init function, which gets called one time after execute by the nooblib, and the nooblib give the script via this function his name
+		- use =s and !=s instead of strcmp
+		- add list function
+		
+	- noobauth:
+		- find solution how to check if /setmaster 1 is possible
+		
+Todo after 1.0:
+	- nooblib:
+		- "garbage collector": remove setting from files which don't exist anymore
+		
+v1.0 (Alpha as of now):
+	- nooblib:
+		- improved: getRunScriptSpecificOptions have a third optional parameter which you can use to set default settings; the function results the default if there isn't a setting saved
+		- fixed: getRunScriptSpecificOptions results now -1 if there isn't any setting saved
+
 v0.9 (26.04.2014):
 	nooblib:
 		- added: make it possible to disable outlaw scripts (15.04.2014)
 		- added: maths functions: ++ and -- ; they are sum or subtract 1 to a var; example: ++ i (18.04.2014)
 		- improved:	remove redundant code from the bind functions (19.04.2014)
 		- improved: don't overwrite the main menu just for showing the welcome gui (19.04.2014)
-		- improved: added exec_nsl function to set the settings for the scripts (15.04.2014)
+		- improved: add exec_nsl function to set the settings for the scripts (15.04.2014)
 		- improved: change directory tree; added nsl dir for scripts which are made to run with the nooblib (15.04.2014)
 		- improved: add "nsl_" as a prefix in the filenames for the readme.txt and the changelog.txt; prevents overwritings (15.04.2014)
 		- improved: make use of local variables (14.04.2014)
@@ -18,7 +39,7 @@ v0.9 (26.04.2014):
 		- improved: backup the user settings before apply + restore their setting at reset (14.04.2014)
 		
 	statsprinter:
-		- improved: cleaned up code; make use of local (15.04.2014)
+		- improved: clean up code; make use of local (15.04.2014)
 	
 	znoobysccpack:
 		- fixed: cause error if zombie menu isn't installed or executed yet (19.04.2014)
@@ -30,7 +51,7 @@ v0.9 (26.04.2014):
 v0.8 (Private Release 14.04.2014):
 	nooblib:
 		- added: nIsDef and nInit (12.04.2014)
-		- improved: updated license to CC-BY-SA 4.0 (prior CC-BY-SA 3.0) (14.04.2014)
+		- improved: update license to CC-BY-SA 4.0 (prior CC-BY-SA 3.0) (14.04.2014)
 		
 	noobafk:
 		- improved: it's not any longer needed to disable the script before you change your key binds, however you still need to restart sauer (14.04.2014)
@@ -41,13 +62,13 @@ v0.8 (Private Release 14.04.2014):
 	noobservers:
 		- added: add the ability to active the server browser of crapmod (03.11.2013)
 		- added: connect to Protest8 (05.09.2013)
-		- fixed: removed the 64b.org connections, the servers are gone (03.11.2013)
+		- fixed: remove the 64b.org connections, the servers are gone (03.11.2013)
 		- fixed: update the connections to the servers (19.08.2013)
 		
 	noobysrules (prior named noobrules):
 		- improved: the rules have now a new style (05.09.2013)
 		
-	noobraceroptions renamed to noobysraceroptions (14.04.201)
+	noobraceroptions renamed to noobysraceroptions (14.04.2014)
 	
 	noobauth (prior named noobysauth):
 		- added: now its possible to auth on every server with the bind, providing that you have added the auth key in your authkeys.cfg (09.09.2013)
