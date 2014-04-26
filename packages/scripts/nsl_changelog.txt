@@ -18,8 +18,14 @@ Todo after 1.0:
 		
 v1.0 (Alpha as of now):
 	- nooblib:
-		- improved: getRunScriptSpecificOptions have a third optional parameter which you can use to set default settings; the function results the default if there isn't a setting saved
-		- fixed: getRunScriptSpecificOptions results now -1 if there isn't any setting saved
+		- improved: getRunScriptSpecificOptions have a third optional parameter which you can use to set default settings; the function results the default if there isn't a setting saved (26.04.2014)
+		- fixed: getRunScriptSpecificOptions results now -1 if there isn't any setting saved (26.04.2014)
+		
+	- noobafk:
+		- improved: make use of the default value parameter of getRunScriptSpecificOptions (26.04.2014)
+		
+	- noobautosorry:
+		- improved: make use of the default value parameter of getRunScriptSpecificOptions (26.04.2014)
 
 v0.9 (26.04.2014):
 	nooblib:
