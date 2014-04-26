@@ -18,6 +18,7 @@ Todo after 1.0:
 		
 v1.0 (Alpha as of now):
 	- nooblib:
+		- improved: rename ifActiveBindKey to nsl_bind_key_if_script_enabled (26.04.2014)
 		- improved: only execute outlaw scripts if they are explicit enabled (26.04.2014)
 		- improved: add optional parameter to nsl_is_script_enabled which sets the default value, is getting used if there isn't a setting saved (26.04.2014)
 		- improved: rename getRunScriptSetting to nsl_is_script_enabled (26.04.2014)
