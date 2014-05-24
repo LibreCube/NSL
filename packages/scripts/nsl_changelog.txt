@@ -37,6 +37,7 @@ v1.0 (Alpha as of now):
 	- noobafk:
 		- improved: change default time til you are count as afk from 80 seconds to 300 (26.04.2014)
 		- improved: make use of the default value parameter of getRunScriptSpecificOptions (26.04.2014)
+		- fixed: now triggers afk_undo if you are in afk-state and disconnect from a server (24.05.2014)
 		
 	- noobauth:
 		- improved: only gets executed if explicit enabled (26.04.2014)
