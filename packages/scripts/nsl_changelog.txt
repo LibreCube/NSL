@@ -7,12 +7,10 @@ Todo:
 		- create nsl function who results the path to the dir in with the script, who call the function, is saved
 		- creating solution that the script itself don't need to know his name, maybe scripts need to have a init function, which gets called one time after execute by the nooblib, and the nooblib give the script via this function his name
 		- use =s and !=s instead of strcmp
-		- add list functions
 		- also add option to execute non-default scripts from the root user sauer directory as outlaw scripts, default disable
 		
 		- maybe find a solution how to loop only over directories?
 		- solution: do im running on sauer or tesseract? (maybe with detection for other cube games also, but no need)
-		
 		
 	- noobauth:
 		- find solution how to check if /setmaster 1 is possible
@@ -27,6 +25,7 @@ Todo after 1.0:
 		
 v1.0 (Alpha as of now):
 	- nooblib:
+		- added: list functions, work with lists similar as with arrays in other languages (21.06.2014)
 		- improved: less config garbage caused by the check if this is the first startup of the current nsl version (24.05.2014)
 		- improved: no need anymore to declare the nsl directories in the autoexec.cfg (26.04.2014)
 		- improved: add optional parameter to nsl_bind_key_if_script_enabled; should the key gets the bind even there isn't a setting if the script gets executed or not? (26.04.2014)
