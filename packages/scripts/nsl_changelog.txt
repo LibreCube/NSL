@@ -59,6 +59,7 @@ v1.0 (Alpha as of now):
 	
 	- introduce nooblayouter (21.06.2014)
 		- nooblayouter changes the look of sauerbraten dynamically temporally, just disable and everything is as it was before
+		- added: first select gui (21.06.2014)
 
 v0.9 (26.04.2014):
 	nooblib:
