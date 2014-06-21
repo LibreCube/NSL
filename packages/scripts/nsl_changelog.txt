@@ -11,12 +11,20 @@ Todo:
 		- also add option to execute non-default scripts from the root user sauer directory as outlaw scripts, default disable
 		
 		- maybe find a solution how to loop only over directories?
+		- solution: do im running on sauer or tesseract? (maybe with detection for other cube games also, but no need)
+		
 		
 	- noobauth:
 		- find solution how to check if /setmaster 1 is possible
 		
+
+	- noobpro:
+		- no need to click on yes anymore
+			=> allplydialog 0; resetgl; applydialog 1
+			
 	- noobafk:
-		- problem if you are in the "afk"-state and disconnect. solution: remove "afk"-state if you disconnect (no matter if youself doing it or the server disconnect you)
+		- also check if connecting to another server (the check if you disconnected will likely dont trigger because you reconnect a way to fast)
+			=> auto afk undo
 		
 Todo after 1.0:
 	- nooblib:
@@ -50,6 +58,9 @@ v1.0 (Alpha as of now):
 		
 	- noobysrules:
 		- improved: only gets executed if explicit enabled (26.04.2014)
+	
+	- introduce nooblayouter (21.06.2014)
+		- nooblayouter changes the look of sauerbraten dynamically temporally, just disable and everything is as it was before
 
 v0.9 (26.04.2014):
 	nooblib:
