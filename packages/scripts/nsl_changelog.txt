@@ -8,9 +8,16 @@ Todo:
 		- creating solution that the script itself don't need to know his name, maybe scripts need to have a init function, which gets called one time after execute by the nooblib, and the nooblib give the script via this function his name
 		- use =s and !=s instead of strcmp
 		- also add option to execute non-default scripts from the root user sauer directory as outlaw scripts, default disable
+		- make sure no errors come up even when there arent settings for the script (scripts HAVE to have the default settings, and NSL needs an API who can handle that problem)!
+		- cubescript grrrrrrrrrrrrrrrrrrr: 	justatest = "true"; guicheckbox "" justatest "true" "false" [ echo actioncall; ]
+			will NOT give you a checked checkbox. only when justatest = 1. so why the hell can i change on/off values when they are getting ignored at init?
+		- list function: 
+			- supports "local" mode auch in save und delete
+			- make handle of nested lists easier something like (nListGetValue list [key1 key2]) = list[key1][key2])
 		
 		- maybe find a solution how to loop only over directories?
 		- solution: do im running on sauer or tesseract? (maybe with detection for other cube games also, but no need)
+		- is it possible to restart the "cubescript engine"?
 		
 	- noobauth:
 		- find solution how to check if /setmaster 1 is possible
@@ -18,6 +25,11 @@ Todo:
 	- noobafk:
 		- also check if connecting to another server (the check if you disconnected will likely dont trigger because you reconnect a way to fast)
 			=> auto afk undo
+			
+	- noobexplain
+		- use list functions
+		- update content
+		- maybe check if txt's are too long before sending
 		
 Todo after 1.0:
 	- nooblib:
@@ -25,6 +37,7 @@ Todo after 1.0:
 		
 v1.0 (Alpha as of now):
 	- nooblib:
+		- added: nsl_from_file_to_script_name function (21.06.2014)
 		- added: list functions, work with lists similar as with arrays in other languages (21.06.2014)
 		- improved: less config garbage caused by the check if this is the first startup of the current nsl version (24.05.2014)
 		- improved: no need anymore to declare the nsl directories in the autoexec.cfg (26.04.2014)
