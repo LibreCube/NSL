@@ -8,6 +8,8 @@ Todo:
 		- use =s and !=s instead of strcmp
 		- also add option to execute non-default scripts from the root user sauer directory as outlaw scripts, default disable
 		- make sure no errors come up even when there arent settings for the script (scripts HAVE to have the default settings, and NSL needs an API who can handle that problem)!
+		- default enabled state
+		- name/title of scripts
 		- cubescript grrrrrrrrrrrrrrrrrrr: 	justatest = "true"; guicheckbox "" justatest "true" "false" [ echo actioncall; ]
 			will NOT give you a checked checkbox. only when justatest = 1. so why the hell can i change on/off values when they are getting ignored at init?
 		- list function: 
@@ -26,7 +28,6 @@ Todo:
 			=> auto afk undo
 			
 	- noobexplain
-		- use list functions
 		- update content
 		- maybe check if txt's are too long before sending
 		
@@ -37,7 +38,8 @@ Todo after 1.0:
 v1.0 (Alpha as of now):
 	- nooblib:
 		- added: nsl_from_file_to_script_name function (21.06.2014)
-		- added: list functions, work with lists similar as with arrays in other languages (21.06.2014)
+		- added: list handle functions, work with lists similar as with arrays in other languages (21.06.2014)
+		- improved: make use of the list functions intern (22.06.2014)
 		- improved: rename "runScript" functions; add "nsl_" prefix for nsl functions (22.06.2014)
 		- improved: less config garbage caused by the check if this is the first startup of the current nsl version (24.05.2014)
 		- improved: no need anymore to declare the nsl directories in the autoexec.cfg (26.04.2014)
@@ -60,6 +62,10 @@ v1.0 (Alpha as of now):
 	- noobautosorry:
 		- improved: make use of the default value parameter of getRunScriptSpecificOptions (26.04.2014)
 	
+	- noobexplain:
+		- improved: use list handle functions (22.06.2014)
+		- improved: remove redundant code (22.06.2014)
+		
 	- noobpro:
 		- improved: don't annoy the user with the confirm dialog (21.06.2014)
 		
