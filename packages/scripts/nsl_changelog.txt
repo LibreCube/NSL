@@ -5,7 +5,6 @@ Todo:
 		- gui for settings
 		- create nsl function who results the path to the dir in with the script, who call the function, is saved
 		- creating solution that the script itself don't need to know his name, maybe scripts need to have a init function, which gets called one time after execute by the nooblib, and the nooblib give the script via this function his name
-		- use =s and !=s instead of strcmp
 		- also add option to execute non-default scripts from the root user sauer directory as outlaw scripts, default disable
 		- make sure no errors come up even when there arent settings for the script (scripts HAVE to have the default settings, and NSL needs an API who can handle that problem)!
 		- default enabled state
@@ -18,7 +17,6 @@ Todo:
 		
 		- maybe find a solution how to loop only over directories?
 		- solution: do im running on sauer or tesseract? (maybe with detection for other cube games also, but no need)
-		- is it possible to restart the "cubescript engine"?
 		
 	- noobauth:
 		- find solution how to check if /setmaster 1 is possible
@@ -34,13 +32,16 @@ Todo:
 Todo after 1.0:
 	- nooblib:
 		- "garbage collector": remove setting from files which don't exist anymore
+	
+	- noobafk:
+		- eliminate the need for a restart after a key change
 		
 v1.0 (Alpha as of now):
 	- nooblib:
 		- added: nsl_from_file_to_script_name function (21.06.2014)
 		- added: list handle functions, work with lists similar as with arrays in other languages (21.06.2014)
 		- improved: make use of the list functions intern (22.06.2014)
-		- improved: rename "runScript" functions; add "nsl_" prefix for nsl functions (22.06.2014)
+		- improved: rename all "runScript" functions finally; add "nsl_" prefix for nsl functions (22.06.2014)
 		- improved: less config garbage caused by the check if this is the first startup of the current nsl version (24.05.2014)
 		- improved: no need anymore to declare the nsl directories in the autoexec.cfg (26.04.2014)
 		- improved: add optional parameter to nsl_bind_key_if_script_enabled; should the key gets the bind even there isn't a setting if the script gets executed or not? (26.04.2014)
@@ -144,7 +145,7 @@ v0.7 (Private Release 15.08.2013):
 	noobysauth: 
 		- added: press the key again to give up your master status
 	noobautosorry: 
-		- fixed: false-positive teamkills should not happen anymore
+		- fixed: false-positive teamkills shouldn't happen anymore
 	noobafk: 
 		- added: don't spec in coop-mode, just rename
 		- added: no need to define the keys in the autoexec.cfg anymore
