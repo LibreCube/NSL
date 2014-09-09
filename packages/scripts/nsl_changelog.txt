@@ -36,8 +36,11 @@ Todo after 1.0:
 	- noobafk:
 		- eliminate the need for a restart after a key change
 		
+	- maybe a extenden scoreboard, check if player is dead, show the modded scoreboard
+		
 v1.0 (Alpha as of now):
 	- nooblib:
+		- added: nsl_add_menu_point function (09.09.2014)
 		- added: nsl_from_file_to_script_name function (21.06.2014)
 		- added: list handle functions, work with lists similar as with arrays in other languages (21.06.2014)
 		- improved: make use of the list functions intern (22.06.2014)
