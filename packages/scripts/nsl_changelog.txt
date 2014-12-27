@@ -72,6 +72,7 @@ v1.0 (Alpha as of now):
 		
 	- noobpro:
 		- improved: don't annoy the user with the confirm dialog (21.06.2014)
+		- fixed: restore of the user settings and also restore applydialog (28.12.2014)
 		
 	- noobysraceroptions:
 		- improved: only gets executed if explicit enabled (26.04.2014)
@@ -79,9 +80,14 @@ v1.0 (Alpha as of now):
 	- noobysrules:
 		- improved: only gets executed if explicit enabled (26.04.2014)
 	
+	- introduce noobmenus (09.09.2014)
+		- noobmenus overwrites some of the default menus and make them more flexibler, configable, also accessable for scripts
+		
+		
 	- introduce nooblayouter (21.06.2014)
 		- nooblayouter changes the look of sauerbraten dynamically temporally, just disable and everything is as it was before
 		- added: first select gui (21.06.2014)
+	
 
 v0.9 (26.04.2014):
 	nooblib:
