@@ -21,4 +21,4 @@ How can I report bugs or make suggestions?
 	If you see this noob called "Nooby" in game just talk to him. He won't blame you. Really.
 	
 Which license have the NSL?
-	It's licensed under the Creative Commons Attribution-ShareAlike 4.0 Unported.
+	It's licensed under the Creative Commons Attribution-ShareAlike 4.0 International.
